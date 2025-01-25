@@ -1,0 +1,61 @@
+/* App.module.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Ensure the container takes the full height of the viewport */
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.appHeader {
+    background-color: #f3faf8;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    z-index: 100;
+}
+
+.appLogo {
+    height: 100px;
+    position: fixed;   /* Keeps the logo fixed at the top-left corner */
+    top: 0;            /* Aligns the logo to the top */
+    left: 0;           /* Aligns the logo to the left */
+    transform: none;   /* Remove the translate to avoid shifting */
+    z-index: 1000;     /* Ensure the logo stays on top of other content */
+}
+
+.appNav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.appLink {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.appLink:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex: 1;  /* Allow content to take up available space */
+    margin: 0;
+    overflow: hidden;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    z-index: 3;
+}

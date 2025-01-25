@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\pages\\ChatPage\\Chat.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\ChatPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\pages\\ChatPage\\ChatPage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\styles\\App.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\styles\\App.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\michael-pic.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\public\\michael-pic.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version1\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\image_2.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\public\\image_2.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\Background_image.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:client\\public\\Background_image.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\chatFlow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\chatFlow.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatPage.jsx",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\ChatPage.jsx",
+              "RelativeDocumentMoniker": "client\\src\\pages\\ChatPage\\ChatPage.jsx",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\ChatPage.jsx",
+              "RelativeToolTip": "client\\src\\pages\\ChatPage\\ChatPage.jsx",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-01-07T10:15:04.064Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chat.module.css",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css",
+              "RelativeDocumentMoniker": "client\\src\\pages\\ChatPage\\Chat.module.css",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css",
+              "RelativeToolTip": "client\\src\\pages\\ChatPage\\Chat.module.css",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-07T10:30:12.026Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.module.css",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\styles\\App.module.css",
+              "RelativeDocumentMoniker": "client\\src\\styles\\App.module.css",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\styles\\App.module.css",
+              "RelativeToolTip": "client\\src\\styles\\App.module.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-14T16:04:58.319Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "michael-pic.png",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\michael-pic.png",
+              "RelativeDocumentMoniker": "client\\public\\michael-pic.png",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\michael-pic.png",
+              "RelativeToolTip": "client\\public\\michael-pic.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-15T21:30:58.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chat.module.css",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version1\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css",
+              "RelativeDocumentMoniker": "..\\..\\version1\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version1\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css",
+              "RelativeToolTip": "..\\..\\version1\\BeSafeHackathon2025\\client\\src\\pages\\ChatPage\\Chat.module.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-15T11:23:49.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "image_2.png",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\image_2.png",
+              "RelativeDocumentMoniker": "client\\public\\image_2.png",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\image_2.png",
+              "RelativeToolTip": "client\\public\\image_2.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-15T09:52:40.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\.env",
+              "RelativeDocumentMoniker": "server\\.env",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\.env",
+              "RelativeToolTip": "server\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-15T09:49:07.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Background_image.png",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\Background_image.png",
+              "RelativeDocumentMoniker": "client\\public\\Background_image.png",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\public\\Background_image.png",
+              "RelativeToolTip": "client\\public\\Background_image.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-14T16:36:57.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "global.css",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\styles\\global.css",
+              "RelativeDocumentMoniker": "client\\src\\styles\\global.css",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\client\\src\\styles\\global.css",
+              "RelativeToolTip": "client\\src\\styles\\global.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-14T16:04:52.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\server.js",
+              "RelativeDocumentMoniker": "server\\server.js",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\server.js",
+              "RelativeToolTip": "server\\server.js",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAKgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-14T15:23:43.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "chatFlow.json",
+              "DocumentMoniker": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\chatFlow.json",
+              "RelativeDocumentMoniker": "server\\chatFlow.json",
+              "ToolTip": "C:\\Users\\fodi-aya\\Desktop\\version4\\BeSafeHackathon2025\\server\\chatFlow.json",
+              "RelativeToolTip": "server\\chatFlow.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T15:13:12.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

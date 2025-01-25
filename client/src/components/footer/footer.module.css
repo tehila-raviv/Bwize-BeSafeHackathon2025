@@ -1,0 +1,61 @@
+.footer {
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Vertically align content */
+    padding: 20px;
+    color: #333333;
+    font-size: 0.9em;
+    background-color: rgba(231, 248, 231, 0.73);
+    backdrop-filter: blur(5px); /* Optional: Add blur effect for a polished look */
+    position: relative;
+    z-index: 1000; /* Keep it above other content */
+    border-radius: 22% 78% 0% 100% / 100% 0% 100% 0%; /* Rounded corners */
+    height: 100px; /* Adjust height dynamically based on content */
+    width: 70%; /* Set width to 70% */
+    margin-left: auto; /* Push the footer to start from the right */
+    margin-top: 30px;
+}
+
+.leftSection {
+    text-align: left;
+    line-height: 1.6; /* Improve line spacing */
+    margin-left: 100px;
+    margin-top: 25px;
+    flex: 1; /* Allow it to take available space */
+}
+
+.rightSection {
+    text-align: left;
+    margin-right: 10px; /* Space from the right edge */
+    flex-shrink: 0; /* Prevent shrinking */
+    text-align: center;
+    width: 150px; /* Increased width for better spacing */
+}
+
+.rightSection h5 {
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.4; /* Add spacing to the emoji */
+}
+
+.rightSection p {
+    font-size: 0.9em;
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Style for developer links */
+.rightSection p a {
+    color: #f085a0; /* Green color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.rightSection p a:hover {
+    color: #fc688d; /* Darker green on hover */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}

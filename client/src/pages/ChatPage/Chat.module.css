@@ -1,0 +1,562 @@
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(20px);
+        /*                         */
+        opacity: 0;
+        /*           */
+    }
+
+    100% {
+        transform: translateY(0);
+        /*              */
+        opacity: 1;
+        /*      */
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes blinkingBackground {
+    0% {
+        background-color: #ff6f6f;
+    }
+
+    25% {
+        background-color: #781111;
+    }
+
+    50% {
+        background-color: #ff6f6f;
+    }
+
+    75% {
+        background-color: #781111;
+    }
+
+    100% {
+        background-color: #ff6f6f;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+body {
+    background-image: url('review-bg1.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Ensures the image covers the entire screen */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-attachment: fixed;
+    /* Makes the background stay in place when scrolling */
+}
+
+
+/* General chat container */
+.Chat {
+    background-color: #F5F5F5;
+    padding: 2px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.chatBox {
+    background-color: #FFFFB;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 20px;
+    width: 1000px;
+    height: 60vh;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover effect for chat box */
+.chat-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box header */
+.chat-left-side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    color: white;
+    border-radius: 15px 0px 0px 15px;
+    width: 180px;
+}
+
+.chats-title-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 180px;
+}
+
+.chats-title {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px #d9d9d940;
+    padding: 5px;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 70px;
+}
+
+.bot-box {
+    height: 55px;
+    width: 160px;
+    align-self: center;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.bot-photo {
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.bot-name {
+    font-size: 17px;
+    font-weight: bold;
+    align-self: center;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.bot-photo-message {
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+/* Messages container (scrollable) */
+.messages {
+    height: 330px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    width: 500px;
+    padding-right: 15px;
+    background-image: url('/chats-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 1%;
+}
+
+/* Individual message styling */
+.message {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 15px 15px 15px 15px;
+    word-wrap: break-word;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.message p {
+    text-align: left;
+    max-width: 330px;
+}
+
+/* Bot's message styles */
+.user-message {
+    margin-left: 15px;
+    background-color: #8DD9D7;
+    color: black;
+    align-self: flex-start;
+    animation: fadeInUp 0.5s ease forwards;
+
+}
+
+.user-message p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* User's message styles */
+.bot-message {
+    background-color: #E9E4E4;
+    color: black;
+    align-self: flex-end;
+    animation: fadeInUp 1s ease forwards;
+}
+
+.bot-message p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Choice buttons styling */
+.choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.choice-button {
+    font-weight: bold;
+    background-color: #8DD9D7;
+    color: black;
+    width: 30%;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.choice-button:hover {
+    background-color: #6f9e89;
+    transform: scale(1.05);
+}
+
+.choice-button.selected {
+    background-color: #004e4e;
+    color: white;
+    font-weight: bold;
+}
+
+/* Review button styling */
+button {
+    padding: 10px 20px;
+    background-color: #006363;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #004e4e;
+}
+
+/* Info container for score & emotion */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mood-title {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.emotions-box {
+    border: none;
+    box-shadow: 0 0 30px #f1f1f1;
+    transform-style: preserve-3d;
+}
+
+.test-emotion {
+    max-width: 200px;
+    max-height: 290px;
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+    animation: fadeInScale 2.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    transform: scale(0.8);
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Popup for notifications or additional info */
+.popup {
+    background: #fff;
+    width: 420px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    padding: 20px;
+    transition: transform 0.3s, visibility 0.3s;
+    visibility: hidden;
+    z-index: 100;
+    background-image: url('/congratulations.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.popup.open {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup button {
+    margin: 5px;
+}
+
+.wrapper {
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo {
+    width: 18ch;
+    animation: typing 2s steps(22);
+    animation-delay: 0.1s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.typing-demo2 {
+    width: 40ch;
+    height: 10ch;
+    animation: typing 2s steps(22);
+    animation-delay: 3s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 1em;
+    z-index: 10;
+    /* Ensure it appears above the image */
+}
+
+.gif {
+    width: 100%;
+    height: 0px;
+    margin-top: 2px;
+    z-index: 10;
+    /* Ensure it appears above the image */
+}
+
+.gif1 {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.gif2 {
+    width: 70px;
+    height: 70px;
+}
+
+/* From Uiverse.io by aguerquin */
+/* From Uiverse.io by aguerquin */
+.button-icon {
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 30px;
+    transform: scale(1.1);
+    border-radius: 15px;
+    animation: float 0.6s linear 6;
+}
+
+.icon {
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+}
+
+.icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+}
+
+.button-icon:hover .cube {
+    transform: rotateX(90deg);
+}
+
+.wrapperIcons {
+    display:flex;
+    justify-content: right;
+    
+}
+
+.helpIcon{
+    margin-top: 9px;
+    margin-left: 0px;
+    width: 30px;
+    height: 20px;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.helpIcon:hover {
+    transform: scale(0.95); /* Slightly reduce size to 95% */
+    transition: transform 0.2s ease-in-out; /* Smooth transition effect */
+}
+
+.refreshIcon{
+    margin-top: 10px;
+    margin-right: 6px;
+    width: 30px;
+    height: 20px;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.refreshIcon:hover {
+    transform: scale(0.95); /* Slightly reduce size to 95% */
+    transition: transform 0.2s ease-in-out; /* Smooth transition effect */
+}
+
+.scoreTxt {
+    margin-top: 0;
+}
+
+.highlightedScore {
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.side-top {
+    border-radius: 15px;
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.7em;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    background: #ff6f6f;
+    color: #fff;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.side-front {
+    animation: blinkingBackground 1s linear 3;
+    border-radius: 15px;
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    /*********/
+    background: #ff6f6f;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+}
+
+.inline-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

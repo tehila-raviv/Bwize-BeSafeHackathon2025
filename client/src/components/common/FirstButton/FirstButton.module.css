@@ -1,0 +1,53 @@
+.button {
+    padding: 10px 20px;
+    background-color: #56c4ac;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Margarine', cursive;
+    position: relative;
+}
+
+/* Pulse Effect */
+.button:hover {
+    animation: pulse 1.5s infinite; /* The pulse effect on hover */
+}
+
+/* Bouncy Button Effect */
+.button:active {
+    transform: scale(0.95) translateY(4px); /* Slight shrink and movement down on click */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adding a shadow when clicked */
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(50, 164, 139, 0.6);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(50, 164, 139, 1);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(50, 164, 139, 0.6);
+    }
+}
+
+/* Bouncy Button Effect */
+@keyframes bounce {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    50% {
+        transform: scale(1.1) translateY(-10px); /* Move up and grow slightly */
+    }
+    100% {
+        transform: scale(1) translateY(0); /* Return to normal position */
+    }
+}

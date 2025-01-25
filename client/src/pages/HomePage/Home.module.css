@@ -1,0 +1,115 @@
+.home {
+    display: flex;
+}
+
+.background-pic {
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    height: 530px;
+    width: 1300px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: black;
+    border-radius: 25px;
+    width: 45%;
+    height: 25%;
+    transition: box-shadow 0.3s ease;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 2em;
+    display: flex;
+    position: absolute;
+    font-size: 1em;
+    flex-direction: column;
+}
+
+.firstLine{
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.secLine {
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.logoName {
+    margin-top: 2px;
+    width: 15%;
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+.home button {
+    position: absolute;
+    top: 97vh;
+    left: 58vh;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    z-index: 200;
+}
+
+.home button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 10px 10px 50px 20px rgba(231, 193, 4, 0.8);
+}
+
+.background-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-button-container button {
+    position: absolute;
+    top: 57%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    height: 88px;
+    width: 95px;
+    border-radius: 50px;
+    color: #000;
+}
+
+.image-button-container button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 10px 10px 50px 10px rgba(231, 193, 4, 0.8);
+}
+
+
+.levelTitlePic:hover {
+    transform: scale(1.1);
+}
+
+.bg-pic {
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 10); /* Adjust the values as needed */
+    height: 500px;
+    width: 700px;
+    justify-self: flex-end;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.bg-pic:hover {
+    transform: scale(1.02);
+    /*  box-shadow: 0 8px 100px  #fbe88a;*/
+}

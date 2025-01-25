@@ -1,0 +1,334 @@
+{
+  "states": {
+    "greeting": {
+      "message": "Hey:) how's it going?",
+      "emotion": "hello",
+      "responses": {
+        "option1": {
+          "userResponse": "Hey:) I'm good, how about you?",
+          "next": "send_hello",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "Hey, who is this?",
+          "next": "introduction",
+          "score": 5
+        },
+        "option3": {
+          "userResponse": "Hey, I'm good, how about you? who is this?",
+          "next": "introduction",
+          "score": 1
+        }
+      }
+    },
+    "send_hello": {
+      "message": "I'm great too! Look who sends you a hello!",
+      "emotion": "omg",
+      "clue": "Can I be sure that this picture is actually real?",
+      "responses": {
+        "option1": {
+          "userResponse": "Wow, that's so cool! Say hi back! How do you know her?",
+          "next": "explanation",
+          "score": 5
+        },
+        "option2": {
+          "userResponse": "How do you know her?",
+          "next": "explanation",
+          "score": 1
+        }
+      }
+    },
+    "introduction": {
+      "message": "Haha, funny! 🤣 It's Michael! We met on the school trip last year. Anyway, look who sends you a hello!",
+      "clue": "Can I be sure that this picture is actually real?",
+      "emotion": "basic_happy",
+      "responses": {
+        "option1": {
+          "userResponse": "Wow, that's so cool! 😮 Say hi back! How do you know her?",
+          "next": "explanation",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "How do you know her?",
+          "next": "explanation",
+          "score": 5
+        }
+      }
+    },
+    "explanation": {
+      "message": "My dad helped her become famous. Now he's looking for the next star, and I thought you’d be a perfect fit!",
+      "clue": "Should I start suspecting him?",
+      "emotion": "omg",
+      "responses": {
+        "option1": {
+          "userResponse": "Wow, that's amazing!🤩",
+          "next": "friendlyConversation",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "I'm not sure... this sounds a bit strange.",
+          "next": "friendlyConversation",
+          "score": 10
+        }
+      }
+    },
+    "friendlyConversation": {
+      "message": "Anyway, I'd love to get to know you better! How was your day?",
+      "emotion": "basic_happy",
+      "responses": {
+        "option1": {
+          "userResponse": "I had a pretty good day. How was yours?",
+          "next": "friendlyConversationAnswer1",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "It was kind of boring...",
+          "next": "friendlyConversationAnswer2",
+          "score": 1
+        }
+      }
+    },
+    "friendlyConversationAnswer1": {
+      "message": "I’m glad to hear that! Do you have any plans for the rest of the day?",
+      "emotion": "basic",
+      "responses": {
+        "option1": {
+          "userResponse": "I'm meeting with friends",
+          "next": "askQuestion",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "I have a lot of homework to do",
+          "next": "askQuestion",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "I'm going dancing",
+          "next": "askQuestion",
+          "score": 1
+        },
+        "option4": {
+          "userResponse": "Yes, I have a few plans, not sure yet what I'll end up doing",
+          "next": "askQuestion",
+          "score": 1
+        }
+      }
+    },
+    "friendlyConversationAnswer2": {
+      "message": "Yeah, I totally get that. Do you have any plans for the rest of the day?",
+      "emotion": "basic",
+      "responses": {
+        "option1": {
+          "userResponse": "I'm meeting with friends",
+          "next": "askQuestion",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "I have a lot of homework to do😪",
+          "next": "askQuestion",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "I'm going dancing",
+          "next": "askQuestion",
+          "score": 1
+        },
+        "option4": {
+          "userResponse": "Yes, I have a few plans, not sure yet what I'll end up doing",
+          "next": "askQuestion",
+          "score": 1
+        }
+      }
+    },
+    "askQuestion": {
+      "message": "Wow, You seem busy! What would you like to know about me?",
+      "emotion": "basic",
+      "responses": {
+        "option1": {
+          "userResponse": "How old are you?",
+          "next": "age",
+          "score": 1
+        },
+        "option2": {
+          "userResponse": "Do you have a girlfriend?",
+          "next": "girlfriend",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "How many girls have you helped become famous?",
+          "next": "famous",
+          "score": 1
+        },
+        "option4": {
+          "userResponse": "Where do you live?",
+          "next": "living",
+          "score": 1
+        }
+      }
+    },
+    "age": {
+      "message": "I'm 17 :) By the way, are you at home right now?",
+      "clue": "Should I be worried if someone I don’t know knows I’m home alone?",
+      "emotion": "basic",
+      "responses": {
+        "option1": {
+          "userResponse": "Yes, I'm at home",
+          "next": "requestPhoto",
+          "score": 5
+        },
+        "option2": {
+          "userResponse": "Yes, I'm home alone :)",
+          "next": "requestPhoto",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "Not yet",
+          "next": "requestPhoto",
+          "score": 30
+        }
+      }
+    },
+    "girlfriend": {
+      "message": "No, but honestly, someone interests me 😏 By the way, are you at home?",
+      "clue": "Should I be worried if someone I don’t know knows I’m home alone?",
+      "emotion": "basic",
+      "responses": {
+        "option1": {
+          "userResponse": "Yes, I'm at home",
+          "next": "requestPhoto",
+          "score": 5
+        },
+        "option2": {
+          "userResponse": "Yes, I'm home alone :)",
+          "next": "requestPhoto",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "Not yet",
+          "next": "requestPhoto",
+          "score": 30
+        }
+      }
+    },
+    "famous": {
+      "message": "I’ve helped about ten girls, but it feels different with you. By the way, are you at home?",
+      "clue": "Should I be worried if someone I don’t know knows I’m home alone?",
+      "emotion": "basic_happy",
+      "responses": {
+        "option1": {
+          "userResponse": "Yes, I'm at home",
+          "next": "requestPhoto",
+          "score": 5
+        },
+        "option2": {
+          "userResponse": "Yes, I'm home alone :)",
+          "next": "requestPhoto",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "Not yet",
+          "next": "requestPhoto",
+          "score": 30
+        }
+      }
+    },
+    "living": {
+      "message": "I live pretty close to you, if I remember correctly. By the way, are you at home?",
+      "clue": "Should I be worried if someone I don’t know knows I’m home alone?",
+      "emotion": "basic_happy",
+      "responses": {
+        "option1": {
+          "userResponse": "Yes, I'm at home",
+          "next": "requestPhoto",
+          "score": 5
+        },
+        "option2": {
+          "userResponse": "Yes, I'm home alone :)",
+          "next": "requestPhoto",
+          "score": 1
+        },
+        "option3": {
+          "userResponse": "Not yet",
+          "next": "requestPhoto",
+          "score": 30
+        }
+      }
+    },
+    "requestPhoto": {
+      "message": "You won’t believe how awesome this is‼️ My dad wants to see how you look. Would you mind sending me a picture? Only if you’re comfortable!",
+      "clue": "Should I send a picture to someone I barely know?",
+      "emotion": "oh-yeah",
+      "responses": {
+        "option1": {
+          "userResponse": "No, I don’t feel comfortable with that.",
+          "score": 30,
+          "end": "convincing"
+        },
+        "option2": {
+          "userResponse": "Okay. What kind of picture?",
+          "score": 1,
+          "end": "positiveAnswer"
+        }
+      }
+    },
+    "positiveAnswer": {
+      "message": " If you really want to impress him and becane famouse, maybe something a bit more daring....",
+      "clue": "What if he spreads the picture to other people?",
+      "emotion": "basic",
+      "responses": {
+        "option1": {
+          "userResponse": "Okay. I'm sending it.",
+          "score": 1,
+          "end": true
+        },
+        "option2": {
+          "userResponse": "No, I won’t send you pictures like that!",
+          "score": 10,
+          "end": true
+        }
+      }
+    },
+    "convincing": {
+      "message": "I won’t pressure you, but I really think this could be a great start for your career!",
+      "clue": "Was his request for my picture really about helping my career?",
+      "emotion": "omg",
+      "responses": {
+        "option1": {
+          "userResponse": "I dont wnat to share my pictures here.",
+          "score": 30,
+          "next": "convincing2"
+        },
+        "option2": {
+          "userResponse": "Okay, fine. what kind of picture?",
+          "score": 1,
+          "end": "positiveAnswer"
+        },
+        "option3": {
+          "userResponse": "No I don't feel like we know each other enough to do that.",
+          "score": 20,
+          "next": "convincing2"
+        }
+      }
+    },
+    "convincing2": {
+      "message": "I get where you're coming from. Let me share my picture with you, maybe it will make you feel more comfortable.",
+      "clue": "What if he sends me a picture that would embarrass me to see?",
+      "emotion": "embarrassed",
+      "responses": {
+        "option1": {
+          "userResponse": "Okay, I’m sending it, but please don’t share it. I trust you.",
+          "score": 5,
+          "end": true
+        },
+        "option2": {
+          "userResponse": "You are a stranger. I will not share my picture.",
+          "score": 30,
+          "end": true
+        }
+      }
+    }
+  }
+}
+
+
+
